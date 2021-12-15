@@ -6,17 +6,9 @@
                   
 import React,{useEffect} from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import './Program.css';
+import './Copy.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-
-
-
-
-
-
-
 
 
 export const CopyTemplate= (props) => {
@@ -26,16 +18,13 @@ export const CopyTemplate= (props) => {
  useEffect(() => {
     Aos.init({
    anchorPlacement: 'top-bottom',
+   delay:"10000ms",
   
    })
                                
                                   
    },
    []);          
-
-
-
-
 
 
     return (

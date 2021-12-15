@@ -1,0 +1,14 @@
+.Heading {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    width: 42%;
+    margin: 25px auto;
+    font-size: 15px;
+    text-transform:uppercase;
+}

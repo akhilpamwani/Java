@@ -1,21 +1,14 @@
      
                     // Import Statements
-
-
-
-                    
+                  
 
 import React,{useEffect} from 'react';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import java from 'react-syntax-highlighter/dist/esm/languages/prism/java';
 import {  okaidia } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import './Program.css';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-
-
-
 
 
 
@@ -27,14 +20,13 @@ export const CodeTemplete = (props) => {
  useEffect(() => {
     Aos.init({
    anchorPlacement: 'top-bottom',
+   delay:"10000ms",
   
    })
                                
                                   
    },
    []);
-
-
 
 
                 // Syntax Initialised

@@ -11,20 +11,9 @@ html{
 .Link {
     margin-top: 26px;
     font-weight: 900;
+    text-transform:uppercase;
 }
-.Heading {
-    justify-content: center;
-    margin: auto;
-    text-align: center;
-    color: white;
-    background: black;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    width: 110%;
-    margin: 25px auto;
-    font-size: 15px;
-}
+
 .Code-Java {
     width: 100%;
 }
@@ -56,6 +45,7 @@ html{
     cursor: pointer;
     margin-top: -20px;
     margin-bottom: 25px;
+    text-transform:uppercase;   
 }
 .Copy-btn:hover {
     background-color: red;
@@ -71,27 +61,29 @@ html{
 
 
 
-    .Footer {
-        display: flex;
-        background-color: black;
-        color: white;
-        align-items: center;
-        margin: auto;
-        text-align: center;
-        height: 500px;
-        width: 100%;
-        overflow: hidden;
-        flex-direction: column;
-    }
-    .Footer-h3 {
-        color: white;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-      
-        text-align: center;
-        margin-top: 200px;
-    }
+.Footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    height: 327px;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    text-transform:uppercase;   
+
+}
+.Footer-h3 {
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
     .Footer-p {
         color: white;
         justify-content: center;

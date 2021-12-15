@@ -1,0 +1,38 @@
+/* Copy Js  Starts*/
+
+.Copy-btn {
+    display: block;
+    position: static;
+    
+    margin-right: 0px;
+    margin: auto;
+    justify-content: end;
+    float: right;
+    
+  
+    margin-right: 0px;
+    bottom: 5;
+    right: -14px;
+    top: 47px;
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    width: 65px;
+    height: 27px;
+    border-radius: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    text-transform:uppercase;   
+}
+.Copy-btn:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    
+    
+}
+
+/* Copy Js  Ends*/

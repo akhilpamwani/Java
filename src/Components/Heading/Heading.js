@@ -5,13 +5,9 @@
 
 
 import React,{useEffect} from 'react';
-import './Program.css';
+import './Heading.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-
-
-
 
 
 export const Heading = (props) => {
@@ -21,6 +17,7 @@ export const Heading = (props) => {
  useEffect(() => {
     Aos.init({
    anchorPlacement: 'top-bottom',
+   delay:"10000ms",
   
    })
                                
@@ -29,13 +26,12 @@ export const Heading = (props) => {
    []);
 
 
-
-
     return (
         <>
-          <h2 
-          className="Heading" 
-          data-aos="fade-up">{props.h2}</h2>  
+
+          <h2 className="Heading"  data-aos="fade-up">{props.h2}</h2>
+
+
         </>
     )
 }
