@@ -1,0 +1,102 @@
+html{
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+.Code-full {
+    width: 95%;
+    justify-content: center;
+   
+}
+.Link {
+    margin-top: 26px;
+    font-weight: 900;
+}
+.Heading {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    width: 110%;
+    margin: 25px auto;
+    font-size: 15px;
+}
+.Code-Java {
+    width: 100%;
+}
+
+
+/* Copy Js  Start*/
+.Copy-btn {
+    display: block;
+    position: static;
+    
+    margin-right: 0px;
+    margin: auto;
+    justify-content: end;
+    float: right;
+    
+  
+    margin-right: 0px;
+    bottom: 5;
+    right: -14px;
+    top: 47px;
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    width: 65px;
+    height: 27px;
+    border-radius: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.Copy-btn:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    
+    
+}
+
+/* Copy Js  Ends*/
+
+/* Footer Starts */
+
+
+
+    .Footer {
+        display: flex;
+        background-color: black;
+        color: white;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .Footer-h3 {
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      
+        text-align: center;
+        margin-top: 200px;
+    }
+    .Footer-p {
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+       
+        text-align: center;
+    }
